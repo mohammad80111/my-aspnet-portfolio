@@ -1,0 +1,57 @@
+﻿
+
+@model MyPoriflo.Models.Contact
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<h2 class="text-center mb-4" style="margin-top:80px;color:deeppink;">Contact Me</h2>
+
+@* @if (TempData["Create"] != null)
+{
+    <div class="alert alert-success text-center">
+        @TempData["Create"]
+    </div>
+} *@
+
+<form asp-action="Create" method="post" style="width:600px;margin:auto;">
+    @Html.AntiForgeryToken()
+
+    <!-- Name input-->
+    <div class="form-floating mb-3">
+        <input asp-for="Name" class="form-control" placeholder="Enter your name..." />
+        <label asp-for="Name">Full name</label>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <!-- Email address input-->
+    <div class="form-floating mb-3">
+        <input asp-for="Email" class="form-control" placeholder="name@example.com" />
+        <label asp-for="Email">Email address</label>
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <!-- Phone number input-->
+    <div class="form-floating mb-3">
+        <input asp-for="Phone" class="form-control" placeholder="(123) 456-7890" />
+        <label asp-for="Phone">Phone number</label>
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <!-- Message input-->
+    <div class="form-floating mb-3">
+        <textarea asp-for="Message" class="form-control" placeholder="Enter your message here..." style="height: 10rem;"></textarea>
+        <label asp-for="Message">Message</label>
+        <span asp-validation-for="Message" class="text-danger"></span>
+    </div>
+
+    <!-- Submit Button-->
+    <div class="d-grid">
+        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+
+    </div>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
