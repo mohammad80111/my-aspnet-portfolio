@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\MyPoriflo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BA3B14D-F723-4475-BBA2-31CF4806A949}|MyPoriflo\\MyPoriflo.csproj|c:\\users\\user\\source\\repos\\myporiflo\\myporiflo\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6BA3B14D-F723-4475-BBA2-31CF4806A949}|MyPoriflo\\MyPoriflo.csproj|solutionrelative:myporiflo\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BA3B14D-F723-4475-BBA2-31CF4806A949}|MyPoriflo\\MyPoriflo.csproj|c:\\users\\user\\source\\repos\\myporiflo\\myporiflo\\views\\home\\resume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BA3B14D-F723-4475-BBA2-31CF4806A949}|MyPoriflo\\MyPoriflo.csproj|solutionrelative:myporiflo\\views\\home\\resume.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6BA3B14D-F723-4475-BBA2-31CF4806A949}|MyPoriflo\\MyPoriflo.csproj|c:\\users\\user\\source\\repos\\myporiflo\\myporiflo\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BA3B14D-F723-4475-BBA2-31CF4806A949}|MyPoriflo\\MyPoriflo.csproj|solutionrelative:myporiflo\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BA3B14D-F723-4475-BBA2-31CF4806A949}|MyPoriflo\\MyPoriflo.csproj|c:\\users\\user\\source\\repos\\myporiflo\\myporiflo\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6BA3B14D-F723-4475-BBA2-31CF4806A949}|MyPoriflo\\MyPoriflo.csproj|solutionrelative:myporiflo\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BA3B14D-F723-4475-BBA2-31CF4806A949}|MyPoriflo\\MyPoriflo.csproj|c:\\users\\user\\source\\repos\\myporiflo\\myporiflo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -82,15 +82,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "MyPoriflo\\wwwroot\\css\\styles.css",
               "ToolTip": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\wwwroot\\css\\styles.css",
               "RelativeToolTip": "MyPoriflo\\wwwroot\\css\\styles.css",
-              "ViewState": "AgIAAOUsAAAAAAAAAAAAAO4sAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAOUsAAAAAAAAAAAzwPIsAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-07T17:50:53.626Z"
+              "WhenOpened": "2025-07-07T17:50:53.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -106,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\Views\\Contact\\Create.cshtml",
               "RelativeDocumentMoniker": "MyPoriflo\\Views\\Contact\\Create.cshtml",
@@ -114,8 +115,7 @@
               "RelativeToolTip": "MyPoriflo\\Views\\Contact\\Create.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T09:54:52.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T09:54:52.16Z"
             },
             {
               "$type": "Document",
@@ -155,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "MyPoriflo\\Controllers\\ContactController.cs",
@@ -163,12 +163,11 @@
               "RelativeToolTip": "MyPoriflo\\Controllers\\ContactController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwCIAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T09:41:20.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T09:41:20.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "MyPoriflo\\Models\\Contact.cs",
@@ -180,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Project.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\Views\\Home\\Project.cshtml",
               "RelativeDocumentMoniker": "MyPoriflo\\Views\\Home\\Project.cshtml",
@@ -188,8 +187,7 @@
               "RelativeToolTip": "MyPoriflo\\Views\\Home\\Project.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T08:32:58.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T08:32:58.947Z"
             },
             {
               "$type": "Document",
@@ -205,20 +203,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Resume.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\Views\\Home\\Resume.cshtml",
               "RelativeDocumentMoniker": "MyPoriflo\\Views\\Home\\Resume.cshtml",
               "ToolTip": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\Views\\Home\\Resume.cshtml",
               "RelativeToolTip": "MyPoriflo\\Views\\Home\\Resume.cshtml",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwFcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-06T08:10:11.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPoriflo\\Views\\Home\\Index.cshtml",
@@ -226,12 +224,11 @@
               "RelativeToolTip": "MyPoriflo\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T08:09:52.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T08:09:52.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MyPoriflo\\MyPoriflo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MyPoriflo\\Views\\Shared\\_Layout.cshtml",
@@ -239,8 +236,7 @@
               "RelativeToolTip": "MyPoriflo\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAADIAAAAAAAAAAAAAADkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-06T08:02:45.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T08:02:45.691Z"
             }
           ]
         }

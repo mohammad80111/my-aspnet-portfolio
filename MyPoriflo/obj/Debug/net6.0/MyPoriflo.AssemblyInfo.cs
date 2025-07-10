@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPoriflo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6298350cbbfd7610252b37869f5033ed9086516")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPoriflo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPoriflo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
