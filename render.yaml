@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: my-aspnet-portfolio
+    env: dotnet
+    rootDir: MyPoriflo
+    buildCommand: dotnet publish -c Release
+    startCommand: dotnet bin/Release/net6.0/MyPoriflo.dll
+    publishPath: bin/Release/net6.0/publish
