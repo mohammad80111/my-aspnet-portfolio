@@ -75,14 +75,14 @@
     <StaticWebAssetEndpoint Include="_content/MyPoriflo/css/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GVBUC8X7GErEZD8IUllWjc4dzhAUSKrTxObHHSIwHYU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"252666"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GVBUC8X7GErEZD8IUllWjc4dzhAUSKrTxObHHSIwHYU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 25 Mar 2023 22:06:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ArY/NYNJUbeXNWU7GYTFr3ssTMI9YZrCN\u002BbdzJ4m7SQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"252669"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ArY/NYNJUbeXNWU7GYTFr3ssTMI9YZrCN\u002BbdzJ4m7SQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Jul 2025 18:59:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MyPoriflo/css/styles.vic2cuwxv0.css">
+    <StaticWebAssetEndpoint Include="_content/MyPoriflo/css/styles.usv4shxhrz.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vic2cuwxv0"},{"Name":"integrity","Value":"sha256-GVBUC8X7GErEZD8IUllWjc4dzhAUSKrTxObHHSIwHYU="},{"Name":"label","Value":"_content/MyPoriflo/css/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"252666"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GVBUC8X7GErEZD8IUllWjc4dzhAUSKrTxObHHSIwHYU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 25 Mar 2023 22:06:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"usv4shxhrz"},{"Name":"integrity","Value":"sha256-ArY/NYNJUbeXNWU7GYTFr3ssTMI9YZrCN\u002BbdzJ4m7SQ="},{"Name":"label","Value":"_content/MyPoriflo/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"252669"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ArY/NYNJUbeXNWU7GYTFr3ssTMI9YZrCN\u002BbdzJ4m7SQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Jul 2025 18:59:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MyPoriflo/Cv/Mohammad_Swalha_CV_Classic (1).09almjruyv.pdf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Cv\Mohammad_Swalha_CV_Classic (1).pdf'))</AssetFile>
